@@ -1,0 +1,39 @@
+.cards
+  {display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 40px;}
+
+.card
+  {background: rgb(254, 254, 254);
+  padding: 30px;
+  font-family: Gideon Roman, cursive;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  margin: 20px 0px;
+  border-radius: 6px;
+  flex-basis: 300px;
+  margin: 20px;}
+
+.card
+ .btn-white
+    {margin: auto;}
+
+.card:hover
+  {box-shadow: 0 10px 16px 0 rgba(0,0,0,0.4);
+  transition: 0.3s;}
+
+.card a
+    {font-size: 18px;}
+
+@media (max-width: 540px)
+  {.card a
+    {font-size: 14px;}}
+
+@media (max-width: 540px)
+  {.card img
+    {width: 100px;
+    height: 100px;}}
+
